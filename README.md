@@ -157,7 +157,3 @@ Testes unitários e documentação Swagger.
 Bug demonstrado na versão “bugada” e corrigido na versão usada.
 ````
 Autor: Oséias Barreto
-
-Entrega: Desafio Fullstack Integrado
-
-Data limite: 24/10/2025
