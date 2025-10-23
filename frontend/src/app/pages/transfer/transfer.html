@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Transferência de Estoque</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="transfer.js" defer></script>
+</head>
+<body>
+<div class="container">
+  <h1>Transferência de Estoque</h1>
+  <form id="transferForm" class="card">
+    <div class="form-group">
+      <label for="origemId">Origem ID</label>
+      <input type="number" id="origemId" placeholder="Ex: 1" required>
+    </div>
+
+    <div class="form-group">
+      <label for="destinoId">Destino ID</label>
+      <input type="number" id="destinoId" placeholder="Ex: 2" required>
+    </div>
+
+    <div class="form-group">
+      <label for="quantidade">Quantidade</label>
+      <input type="number" id="quantidade" placeholder="Ex: 10" required>
+    </div>
+
+    <button type="submit" class="btn-primary">Transferir</button>
+  </form>
+
+  <p id="mensagem" class="mensagem"></p>
+
+  <a href="../../../index.html" class="btn-link">Voltar</a>
+</div>
+</body>
+</html>

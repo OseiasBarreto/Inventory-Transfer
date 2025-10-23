@@ -1,0 +1,10 @@
+{
+  "name": "inventory-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "lite-server --baseDir=src"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
